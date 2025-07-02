@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import Loading from "../Home/Loading";
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link,useNavigate } from 'react-router-dom';
-
+// Login 
 const Login = () => {
     const navigate = useNavigate();
     const { register, formState: { errors }, handleSubmit } = useForm();
