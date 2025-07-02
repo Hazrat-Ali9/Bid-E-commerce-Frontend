@@ -4,6 +4,7 @@ import auth from "../../firebase.init";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from 'react-router-dom';
 import Loading from "../Home/Loading";
+// Register
 const Register = () => {
   const [signInWithGoogle, gLoading, gError] = useSignInWithGoogle(auth);
   const handleGoogleSignIn = async () => {
