@@ -4,6 +4,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
 import { useNavigate, useParams } from "react-router-dom";
 import UseItems from "../Hook/useItems";
+// add bid
 const AddBid = () => {
   const [user] = useAuthState(auth);
   const { id } = useParams();
