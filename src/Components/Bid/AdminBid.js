@@ -1,7 +1,7 @@
 import React from 'react';
 import useOrder from '../Hook/useOrder';
 import AdminDetails from '../Detail/AdminDetails';
-
+// admin bid
 const AdminBid = () => {
     const [orders] = useOrder();
     return (
