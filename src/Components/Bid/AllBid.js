@@ -1,7 +1,7 @@
 import React from "react";
 import useOrder from "../Hook/useOrder";
 import AllDetails from "../Detail/AllDetails";
-
+// all bids
 const AllBid = () => {
   const [orders] = useOrder();
   return (
