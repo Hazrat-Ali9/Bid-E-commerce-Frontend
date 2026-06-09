@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useParams,useNavigate } from "react-router-dom";
-
+// update field
 const UpdateBid = () => {
     const [price, setPrice] = useState("");
     const { id } = useParams();
