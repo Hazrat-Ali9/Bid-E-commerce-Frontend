@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom'
 const Add = () => {
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
-
+//add
   const onSubmit = async (data, event) => {
     const url = `https://abccomerce.onrender.com/product`;
     const formData = new FormData();
