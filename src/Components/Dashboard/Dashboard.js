@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import useProduct from "../Hook/useProduct";
 import ProductDetails from "../Detail/ProductDetails";
-
+// dashboard
 const Dashboard = () => {
   const [products,setProducts] = useProduct();
   const handleDelate = id =>{
