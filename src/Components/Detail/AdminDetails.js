@@ -1,5 +1,5 @@
 import React from 'react';
-
+// admin details
 const AdminDetails = ({order}) => {
   const {productName, userName, email, price} = order;
     return (
