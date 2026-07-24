@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+// proud details
 const ProductDetails = ({ product, handleDelate }) => {
   const { _id, name, price } = product;
   return (
