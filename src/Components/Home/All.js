@@ -1,7 +1,7 @@
 import React from 'react';
 import useProduct from '../Hook/useProduct';
 import Details from '../Detail/Details';
-
+// all js
 const All = () => {
     const [products] = useProduct()
     return (
